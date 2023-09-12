@@ -29,3 +29,13 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build
+
+    - name: Extraer y establecer el nombre del dueño y del repositorio en variables de entorno
+      run: |
+        echo "REPO_OWNER=$(echo ${{ github.repository }} | cut -d '/' -f 1)" >> $GITHUB_ENV
+        echo "REPO_NAME=$(echo ${{ github.repository }} | cut -d '/' -f 2)" >> $GITHUB_ENV
+    - name: Mostrar el nombre del dueño y del repositorio
+      run: |
+        echo "El nombre del dueño del repositorio es: $REPO_OWNER"
+        echo "El nombre del repositorio es: $REPO_NAME"
+
