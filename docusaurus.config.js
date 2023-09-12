@@ -11,7 +11,7 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/docusaurus_test/',
   projectName: 'Documentation', // Usually your repo name.
 
   onBrokenLinks: 'throw',
