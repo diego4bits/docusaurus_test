@@ -11,8 +11,8 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: URL,
-  baseUrl: BASE_URL,
+  url: URL.toString(),
+  baseUrl: BASE_URL.toString(),
   projectName: 'Documentation', // Usually your repo name.
 
   onBrokenLinks: 'throw',
