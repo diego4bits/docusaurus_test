@@ -11,8 +11,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: `https://${process.env.REPO_OWNER}.github.io`,
-  baseUrl: `/${process.env.REPO_NAME}/`,
+  //url: `https://${process.env.REPO_OWNER}.github.io`,
+  //baseUrl: `/${process.env.REPO_NAME}/`,
+  url: "https://diego4bits.github.io",
+  baseUrl: `/docusaurus_test/`,
   projectName: 'Documentation', // Usually your repo name.
 
   onBrokenLinks: 'throw',
