@@ -1,18 +1,15 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-require('dotenv').config();
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-URL = "https://" + process.env.REPO_OWNER +".github.io"
-BASE_URL = "/" + process.env.REPO_NAME + "/"
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Documentation',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  //url: `https://${process.env.REPO_OWNER}.github.io`,
-  //baseUrl: `/${process.env.REPO_NAME}/`,
   url: 'https://diego4bits.github.io',
   baseUrl: '/docusaurus_test/',
   projectName: 'Documentation', // Usually your repo name.
