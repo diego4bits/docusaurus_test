@@ -3,7 +3,7 @@
 require('dotenv').config();
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-URL = "https://" + process.env.REPO_OWNER +"github.io"
+URL = "https://" + process.env.REPO_OWNER +".github.io"
 BASE_URL = "/" + process.env.REPO_NAME + "/"
 /** @type {import('@docusaurus/types').Config} */
 const config = {
